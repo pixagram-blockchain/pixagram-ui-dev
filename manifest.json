@@ -1,28 +1,30 @@
 {
-  "id": "pixagram",
-  "name": "Pixagram",
+  "id": "com.pixagram",
+  "name": "Pixagram®",
   "short_name": "Pixa",
   "description": "Create pixel art on the blockchain, get paid to post, vote, and sell your artworks as NFTs. You can convert your pictures and prompt into real pixelated artworks.",
   "lang": "en",
   "dir": "ltr",
   "start_url": "/",
   "scope": "/",
-  "display": "fullscreen",
+  "display": "minimal-ui",
   "display_override": [
-    "window-controls-overlay",
-    "tabbed",
     "fullscreen",
-    "standalone",
-    "minimal-ui"
+    "window-controls-overlay"
   ],
-  "orientation": "any",
+  "orientation": "portrait",
   "theme_color": "#000000",
   "background_color": "#000000",
   "categories": [
-    "social",
-    "photo",
+    "design",
     "entertainment",
-    "finance"
+    "finance",
+    "lifestyle",
+    "networking",
+    "photo",
+    "photo &amp; video",
+    "social",
+    "social networking"
   ],
   "icons": [
     {
@@ -426,7 +428,7 @@
   "protocol_handlers": [
     {
       "protocol": "web+pixagram",
-      "url": "/trending/?pwa=protocol&uri=%s"
+      "url": "/trending/?pwa=protocol&amp;uri=%s"
     }
   ],
   "share_target": {
